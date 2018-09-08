@@ -15,7 +15,7 @@ export const logout = ({ userName, password }) => {
     const data = {
         userName,
         password
-    }
+    };
     return HTTP({
         url: '/logout',
         method: 'post',
