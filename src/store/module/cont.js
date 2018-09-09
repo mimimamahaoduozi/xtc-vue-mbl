@@ -2,7 +2,7 @@ export default {
     state: {
         cont: 1,
         list: [
-            { 'a': '111' }, 
+            { 'a': '111' },
             { 'a': '222' }
         ]
     },
@@ -20,6 +20,7 @@ export default {
     actions: {
 
         addCont({ state, commit }) {
+
             commit('setCont');
         },
 

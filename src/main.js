@@ -9,9 +9,11 @@ import '@/theme/index.scss'
 import '@/assets/style/base.css'
 import './assets/style/icon/iconfont.js'
 
-Vue.config.productionTip = false
+//引入mockjs
+require('./mock/index');
+Vue.config.productionTip = false;
 Vue.use(ElementUI);
-Vue.prototype.$http = HTTP
+Vue.prototype.$http = HTTP;
 
 /* eslint-disable no-new */
 new Vue({
