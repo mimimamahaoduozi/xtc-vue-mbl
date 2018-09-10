@@ -17,6 +17,7 @@
             <p v-for="(item,index) in getList" :key="index">{{ item.a }}</p>
             <p>数量：{{ getListLength }}</p>
         </div>
+       
     </div>
 </template>
 
@@ -26,7 +27,7 @@
         mapGetters
     } from "vuex";
     import imgLogo from "@/assets/img/logo.png";
-
+    
     export default {
         name: "HelloWorld",
         data() {
