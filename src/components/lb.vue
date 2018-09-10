@@ -107,40 +107,11 @@ autoPlay() {
  .slide-ul>li {
     position: absolute;
     width: 100%;
-    height:400px;
+    height:10%;
     
   }
 .uimg {
       width: 100%;
-      height:400px;
+      height:10%;
     }
-.carousel-items {
-  position: absolute;
-  z-index: 10;
-  top: 320px;
-  width: 100%;
-  /* margin: 0 auto; */
-  /* text-align: center; */
-  margin-left:10px;
-  font-size: 0; 
-}
-.carousel-items>span {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    margin: 1px;
-    text-indent: -999px;
-    cursor: pointer;
-    background-color: #000 \9;
-    background-color: rgba(0,0,0,0);
-    border: 1px solid #fff;
-    border-radius: 10px;
-  }
-   .active {
-        width: 12px;
-    height: 12px;
-    margin: 0;
-    background-color: #fff;
-     border-radius: 10px;
-  }
 </style>
