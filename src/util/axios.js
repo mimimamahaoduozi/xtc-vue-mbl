@@ -4,7 +4,7 @@ import { Message } from 'iview'
 
 const envConfig = {
   production: '/api/v1',
-  development: 'http://localhost:8080/api/v1'
+  development: 'http://localhost:8080'
 }
 
 export const baseURL = envConfig[process.env.NODE_ENV || 'development']
@@ -34,7 +34,7 @@ HTTP.interceptors.request.use(function (config) {
 // 请求后的钩子函数
 HTTP.interceptors.response.use(function (res) {
   let { data } = res;
-  // 未登录拦截-重定向到sso或者登录页面 
+  // 未登录拦截-重定向到sso或者登录页面
   if(data.code !== 200 && data.code === 406) {
     Message.error('未登录，或登录失效，请登录');
     setTimeout( () =>{
