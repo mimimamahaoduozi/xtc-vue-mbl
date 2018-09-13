@@ -52,6 +52,7 @@
  .news-list a>span{
    
    float:right;
+   margin-right: 1%;
    color:#c3c3c3;
  }
 </style>
