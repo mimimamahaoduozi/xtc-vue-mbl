@@ -46,6 +46,7 @@
     position: relative;
     height:50px;
     background:#e8e9eb;
+  z-index: 100;
 }
 .nav>span{
     width:100%;
