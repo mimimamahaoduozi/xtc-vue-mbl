@@ -14,7 +14,7 @@ const router = new Router({
       {
         path: '/',
         name: 'HomePage',
-        component: resolve => require(['@/view/home-page/produce.vue'], resolve)
+        component: resolve => require(['@/view/product/produce.vue'], resolve)
       },
     ]
 })
