@@ -1,11 +1,9 @@
 
-
-
 <template>
-    <div id="app">
+    <div id="pro">
         <router-view></router-view>
          <div class="index_product">
-      <h3><a href="#">产品展示 >></a></h3>
+      <h3><a href="#">产品展示 >></a></h3> 
       <div class="imgs">
       <img src="http://www.tianciganggou.com/img/idisplay_1.jpg">
       <img src="http://www.tianciganggou.com/img/idisplay_2.jpg">
@@ -28,17 +26,23 @@ export default {
 </script>
 
 <style scoped lang='scss'>
+.index_product{
+  margin-bottom: 10px;
+  height:15em;
+  width:100%;
+}
  h3{
    text-align:center;
-   font-weight: bold;
-   font-size:1.8em;
+   font-size:1.2em;
   line-height: 30px;
+  margin-top: 10px;
  }
  h3>a{
    color:#f00;
  }
 .imgs{
   width:100%;
+  
 }
 .imgs>img{
   float: left;
