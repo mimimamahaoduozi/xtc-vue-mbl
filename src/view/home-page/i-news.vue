@@ -1,7 +1,7 @@
 <template>
 <div>
      <div class="iabout-t"><h2>新闻中心</h2></div>
-     <div class="iabout-n"><img src="../../assets/img/inews.jpg"/><p>中国钢结构业架起“腾飞之环”...</p></div>
+     <!--<div class="iabout-n"><img src="../../assets/img/inews.jpg"/><p>中国钢结构业架起“腾飞之环”...</p></div>-->
      <div class="news-list">
          <li><a href="#">榆林鑫天赐钢结构公司-涂装安全...<span>[2017-7-12]</span></a></li>
          <li><a href="#">中国钢结构业架起“腾飞之环”<span>[2017-8-22]</span></a></li>
@@ -10,7 +10,7 @@
          <li><a href="#">高层建筑的常见结构层次及特点<span>[2017-6-20]</span></a></li>
          <li><a href="#">钢结构主体验收特点有哪些？<span>[2017-6-18]</span></a></li>
      </div>
-     
+
 </div>
 </template>
 <script>
@@ -46,8 +46,8 @@
      margin-top: -2em;
      color:#fff;
  }
- .news-list li{  
-     height: 1.8em; 
+ .news-list li{
+     height: 1.8em;
      line-height: 1.8em;
       border-bottom: 1px dashed #666;
       }

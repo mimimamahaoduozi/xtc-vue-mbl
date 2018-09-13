@@ -6,15 +6,15 @@
       @open="handleOpen"
       @close="handleClose">
       <el-submenu index="1" id="nav1">
-        
+
         <el-menu-item-group>
           <!--<template slot="title"></template>-->
           <el-menu-item index="1-1"><router-link to="/">首页</router-link></el-menu-item>
-          <el-menu-item index="1-2"><router-link to="/">关于我们</router-link></el-menu-item>
-          <el-menu-item index="1-2"><router-link to="/">新闻中心</router-link></el-menu-item>
-          <el-menu-item index="1-2"><router-link to="/">产品展示</router-link></el-menu-item>
-          <el-menu-item index="1-2"><router-link to="/">成功案例</router-link></el-menu-item>
-          <el-menu-item index="1-2"><router-link to="/">联系我们</router-link></el-menu-item>
+          <el-menu-item index="1-2"><router-link to="/about">关于我们</router-link></el-menu-item>
+          <el-menu-item index="1-2"><router-link to="/news">新闻中心</router-link></el-menu-item>
+          <el-menu-item index="1-2"><router-link to="/product">产品展示</router-link></el-menu-item>
+          <el-menu-item index="1-2"><router-link to="/success">成功案例</router-link></el-menu-item>
+          <el-menu-item index="1-2"><router-link to="/contact">联系我们</router-link></el-menu-item>
         </el-menu-item-group>
       </el-submenu>
     </el-menu>
