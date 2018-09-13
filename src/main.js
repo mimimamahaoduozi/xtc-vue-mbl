@@ -8,6 +8,9 @@ import store from './store'
 import '@/theme/index.scss'
 import '@/assets/style/base.css'
 import './assets/style/icon/iconfont.js'
+import wcSwiper from 'wc-swiper'
+import 'wc-swiper/style.css'
+Vue.use(wcSwiper);
 
 //引入mockjs
 require('./mock/index');
