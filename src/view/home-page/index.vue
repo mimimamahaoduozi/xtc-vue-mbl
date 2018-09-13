@@ -1,67 +1,43 @@
 <template>
-    <div class="hello">
-        <header class="header">
-            <h1>{{ msg }}</h1>
-        </header>
-        <h5 class="text_c">vuex</h5>
-
-        <div class="box">
-            <Button type="primary" @click="reduceCont">-</Button>
-            <p>{{ getCont}}</p>
-            <Button type="primary" @click="addCont">+</Button>
-        </div>
-
-        <Icon type="ios-alarm-outline" />
-
-        <div class="text_c">
-            <p v-for="(item,index) in getList" :key="index">{{ item.a }}</p>
-            <p>数量：{{ getListLength }}</p>
-        </div>
-
-    </div>
+  <div id="index">
+    <Nav></Nav>
+    <Content></Content>
+    <mininav></mininav>
+    <ipro></ipro>
+    <iabout></iabout>
+    <inews></inews>
+    <news></news>
+    <Footer></Footer>
+  </div>
 </template>
 
 <script>
-    import {
-        mapActions,
-        mapGetters
-    } from "vuex";
-    import imgLogo from "@/assets/img/logo.png";
+  import { swiper, swiperSlide } from "vue-awesome-swiper"
+  import Nav from "../../components/Nav"
+  import Content from "../../components/lb"
+  import mininav from "../../components/mininav"
+  import inews from "./i-news"
+  import ipro from "./ipro"
+  import iabout from "./i-about"
+  import Footer from "../../components/footer"
 
-    export default {
-        name: "HelloWorld",
-        data() {
-            return {
-                msg: "Welcome to Your Vue.js App"
-            };
-        },
-        computed: {
-            getCont() {
-                return this.$store.state.cont.cont;
-            },
-            ...mapGetters(["getList", "getListLength"])
-        },
-        methods: {
-            ...mapActions(["addCont", "reduceCont"])
-        }
-    };
+  export default {
+    name: "Index",
+    components:{Nav,Content,mininav,ipro,iabout,inews,Footer},
+    data() {
+      return {
+
+      };
+    }
+  };
+
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang='scss'>
-.header {
-    text-align: center;
-    padding: 20px 0;
-}
-
-.box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    p {
-        width: 120px;
-        text-align: center;
-    }
-}
 
 </style>
+
+
+
+
+

@@ -13,11 +13,11 @@ const router = new Router({
         // },
       {
         path: '/',
-        component: resolve => require(['@/view/product/produce.vue'], resolve)
+        component: resolve => require(['@/view/home-page/index.vue'], resolve)
       },
       {
         path: '/about',
-        component: resolve => require(['@/view/home-page/index.vue'], resolve)
+        component: resolve => require(['@/view/about/about.vue'], resolve)
       },
       {
         path: '/news',
@@ -33,7 +33,7 @@ const router = new Router({
       },
       {
         path: '/contact',
-        component: resolve => require(['@/view/product/produce.vue'], resolve)
+        component: resolve => require(['@/view/contact/contact.vue'], resolve)
       }
     ]
 });
