@@ -2,14 +2,14 @@
   <div>
      <Nav></Nav>
      <Content></Content>
-     <place></place>
+     <place>关于我们</place>
    <div class="hello">
         <mini :items="lists" @click.native="change"></mini>
         <div class="text_q">
              <div class="qq">
                 <div class="ww" v-for="(item,index) in lists[active].list" :key="index">
-                  <p class="qw" v-for="itemChlid in item.addrs">{{itemChlid.addr}}</p>
-                  <img :src="itemChlid.img" v-for="itemChlid in item.imgs"/>
+                  <p class="qw" v-for="(itemChlid,qq) in item.addrs" :key="qq">{{itemChlid.addr}}</p>
+                  <img :src="itemChlid.img" v-for="(itemChlid,ww) in item.imgs " :key="ww"/>
                 </div>
             </div>`
         </div>
@@ -151,7 +151,8 @@ import place from "../../components/place.vue";
     img{
                   display:inline-block;
               width:90%;
-                  height: 150px;
+                  height: auto;
+                  margin-top:10px;
                 //   border:solid 1px #fff;
              }
 
