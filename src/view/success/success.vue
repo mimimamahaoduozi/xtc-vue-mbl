@@ -2,7 +2,7 @@
    <div class="hello">
        <Nav></Nav>
        <Content></Content>
-       <place></place>
+       <place>成功案例</place>
         <mini :items="lists" @click.native="change"></mini>
         <div class="text_c">
             
