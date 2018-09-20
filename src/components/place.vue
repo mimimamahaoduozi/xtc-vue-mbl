@@ -17,4 +17,7 @@ export default {
   .place a:visited{
     color: #6b6b6b;
   }
+  a{
+  display:inline-block;
+  }
 </style>
