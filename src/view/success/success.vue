@@ -20,7 +20,7 @@
             <!--<p v-for="(item,index) in getList" :key="index">{{ item.a }}</p>
             <p>数量：{{ getListLength }}</p>-->
         </div>
-        <Footer></Footer>
+        <Footer style="clear:both"></Footer>
     </div>
 
 </template>
