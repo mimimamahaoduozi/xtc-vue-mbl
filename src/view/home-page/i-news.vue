@@ -30,7 +30,8 @@
    margin-bottom:10px;
  }
  .iabout-n{
-     width:100%;
+     width:97%;
+     margin:0 1.5% 0 1.5%;
      position: relative;
  }
  .iabout-n img{

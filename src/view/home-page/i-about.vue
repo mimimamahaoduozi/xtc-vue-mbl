@@ -26,7 +26,8 @@
    margin-bottom: 10px;
  }
  .iabout-info{
-     width:100%;
+     width:97%;
+      margin:0 1.5% 0 1.5%;
      height:8em;
      background:  #b8090c;
       margin-bottom: 10px;
