@@ -4,7 +4,7 @@
   <Content></Content>
     <div class="pro">
       <mini :items="p_data" @click.native="change"></mini>
-      <Place></Place>
+      <Place>产品中心</Place>
       <div class="cont_p">
         <ul class="ul_p">
           <li class="li_p" v-for="(item,index) in p_data[active].p_img" :key="index">
@@ -13,7 +13,7 @@
             </a>
           </li>
         </ul>
-      </div>x
+      </div>
     </div>
   <Footer></Footer>
 </div>
