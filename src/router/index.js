@@ -21,7 +21,7 @@ const router = new Router({
       },
       {
         path: '/news',
-        component: resolve => require(['@/view/news/news-content.vue'], resolve)
+        component: resolve => require(['@/view/news/index.vue'], resolve)
       },
       {
         path: '/product',
