@@ -45,10 +45,10 @@ import place from "../../components/place.vue";
                       ]},
 
                       {imgs:[
-                          {img:"../static/img/abouta.jpg"},
-                          {img:"../static/img/abouta1.jpg"},
-                          {img:"../static/img/abouta2.jpg"},
-                          {img:"../static/img/abouta3.jpg"},
+                          {img:"http://tianciganggou.com/about/img/abouta.jpg"},
+                          {img:"http://tianciganggou.com/about/img/abouta1.jpg"},
+                          {img:"http://tianciganggou.com/about/img/abouta2.jpg"},
+                          {img:"http://tianciganggou.com/about/img/abouta3.jpg"},
                         ]},
                  ],title:"公司介绍"},
                   {list:[
@@ -67,7 +67,7 @@ import place from "../../components/place.vue";
                       ]},
 
                     {imgs:[
-                      {img:"../static/img/about3.jpg"}
+                      {img:"http://tianciganggou.com/about/img/about3.jpg"}
                       ]}
                  ],title:"管理团队"},
                  ],

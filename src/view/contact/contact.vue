@@ -30,11 +30,6 @@
   import Content from '../../components/lb.vue';
   import Footer from '../../components/Footer.vue';
   import Place from '../../components/place.vue';
-  import {
-    mapActions,
-    mapGetters
-  } from "vuex";
-  import imgLogo from "@/assets/img/logo.png";
   export default {
     data() {
       return {
