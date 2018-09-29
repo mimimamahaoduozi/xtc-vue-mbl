@@ -175,9 +175,9 @@ import place from "../../components/place.vue";
             //  }
           }
          .a2{
-             font-size:1.4em;
+             font-size:1.2em;
              color:#000;
-             font-weight: bold;
+             
          }
         }
     }
