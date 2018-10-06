@@ -3,8 +3,8 @@
     <div id="pro">
         <router-view></router-view>
          <div class="index_product">
-      <h3><a href="#">产品展示 >></a></h3> 
-      <div class="imgs">
+      <h3 class="cl"><span>产品展示</span><router-link to="/product">更多>></router-link></h3>
+      <div class="imgs cl">
       <img src="http://www.tianciganggou.com/img/idisplay_1.jpg">
       <img src="http://www.tianciganggou.com/img/idisplay_2.jpg">
       <img src="http://www.tianciganggou.com/img/idisplay_3.jpg">
@@ -25,24 +25,14 @@ export default {
 };
 </script>
 
-<style scoped lang='scss'>
+<style scoped>
 .index_product{
-  margin-bottom: 10px;
-  height:15em;
   width:100%;
 }
- h3{
-   text-align:center;
-   font-size:1.2em;
-  line-height: 30px;
-  margin-top: 10px;
- }
- h3>a{
-   color:#f00;
- }
+
 .imgs{
   width:100%;
-  
+
 }
 .imgs>img{
   float: left;

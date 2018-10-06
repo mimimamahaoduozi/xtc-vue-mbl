@@ -117,16 +117,19 @@ import place from "../../components/place.vue";
     }
 }
 .text_q{
-    text-align: center;
     .qq{
-
         .ww{
           width:100%;
           float: left;
-          text-align: center;
           .qw{
-             text-align: center;
+             /*text-align: center;*/
+            margin: 0 auto;
              width: 95%;
+            text-indent: 32px;
+            font-size: .9em;
+            line-height: 1.5em;
+            letter-spacing: 1px;
+            color: #404040;
             //  img{
             //      display:inline-block;
             //      width:90%;
@@ -152,7 +155,7 @@ import place from "../../components/place.vue";
                   display:inline-block;
               width:90%;
                   height: auto;
-                  margin-top:10px;
+                  margin:10px 5%;
                 //   border:solid 1px #fff;
              }
 

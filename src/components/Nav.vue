@@ -39,8 +39,9 @@
   .nav{
     position: relative;
     height:50px;
-    background:#e8e9eb;
+    background:url("../assets/img/newred.jpg");
     z-index: 1000;
+    color: #fff;
   }
   .nav>span{
     width:100%;
@@ -48,12 +49,13 @@
     line-height: 50px;
     text-align: center;
     font-size:1.5em;
+    font-weight: bold;
 
   }
   .el-dropdown{
     position: absolute;
     right:0px;
-
+    color: #fff;
     width:100%;
     z-index:100;
   }
@@ -83,8 +85,9 @@
 
 
 
+
   a{
-    background:rgb(212,31,30);
+    background:url("../assets/img/newred.jpg");
     width:100%;
     border-bottom:1px solid #fff;
     color:#fff;

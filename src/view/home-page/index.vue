@@ -32,11 +32,29 @@ export default {
 
 </script>
 
-<style scoped lang='scss'>
-
+<style>
+  h3{
+    text-align:center;
+    font-size:1.2em;
+    line-height: 30px;
+    margin: 10px 5px;
+    padding: 0 20px;
+    background: url("../../assets/img/inav_bg.jpg");
+  }
+  h3>span{
+    float: left;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  h3>a{
+    color:#f00;
+    float: right;
+    font-size: 15px;
+    font-weight: bold;
+  }
 </style>
 
 
 
 
-     
+

@@ -52,7 +52,7 @@
     border-bottom: solid 1px #ccc;
   }
   .mininavcon{
-    padding: 0 10px;
+    padding: 5px 0;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -67,10 +67,11 @@
     -ms-flex-negative: 0;
     flex-shrink: 0;
     padding: 10px;
-    margin: 5px;
+    border-radius: 10px;
+    color: #0086b3;
   }
   .mininavcon>li.active{
-    color: #fff;
-    background-color: #e10;
+    color: #c12f17;
+    background: url("../assets/img/cebg.jpg");
   }
 </style>

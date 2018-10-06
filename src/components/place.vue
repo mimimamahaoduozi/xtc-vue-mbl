@@ -1,11 +1,14 @@
 <template>
   <div class="place">
-    您当前所在位置：<router-link to="/">首页--</router-link><slot></slot>
+    您当前所在位置：
+    <p class="weizhi">
+      <router-link to="/">首页--</router-link><slot></slot>
+    </p>
   </div>
 </template>
 <script>
 export default {
-    
+
 }
 </script>
 <style>
@@ -15,9 +18,13 @@ export default {
     border: 1px solid #fff;
   }
   .place a:visited{
-    color: #6b6b6b;
+    color: #0086b3;
   }
-  a{
-  display:inline-block;
+  .weizhi{
+    color: #999999;
+  }
+  a,.weizhi{
+    display:inline-block;
+    font-size: .9em!important;
   }
 </style>

@@ -5,7 +5,7 @@
        <place>成功案例</place>
         <mini :items="lists" @click.native="change"></mini>
         <div class="text_c">
-            
+
              <ul class="ul1">
                 <li class="li1" v-for="(item,index) in lists[active].list" :key="index">
                     <!--<ul>
@@ -14,7 +14,7 @@
                     <a href="#" class="a2">{{item.title}}</a>
                         <!--</li>
                     </ul>-->
-                    
+
                 </li>
             </ul>
             <!--<p v-for="(item,index) in getList" :key="index">{{ item.a }}</p>
@@ -106,7 +106,7 @@ import place from "../../components/place.vue";
                  ],title:"菱镁活动房"},
                  ],
                  active:0
-            
+
             };
         },
         computed: {
@@ -158,6 +158,7 @@ import place from "../../components/place.vue";
           width:50%;
           float: left;
           text-align: center;
+          margin-bottom: 10px;
           .a1{
              text-align: center;
              img{
@@ -166,18 +167,9 @@ import place from "../../components/place.vue";
                  height: 150px;
                  border:solid 1px #fff;
              }
-            //  img:hover{
-            //      display:inline-block;
-            //      width:90%;
-            //      height: 150px;
-            //      transition: all 1s;
-            //      border:solid 3px #0f0;
-            //  }
           }
          .a2{
-             font-size:1.4em;
              color:#000;
-             font-weight: bold;
          }
         }
     }
