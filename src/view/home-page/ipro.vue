@@ -26,6 +26,7 @@ export default {
 </script>
 
 <style scoped>
+
 .index_product{
   width:100%;
 }

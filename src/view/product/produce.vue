@@ -26,7 +26,7 @@
     mapGetters
   } from "vuex";
   import imgLogo from "@/assets/img/logo.png";
-  import Footer from "../../components/footer";
+  import Footer from "../../components/Footer";
   import Nav from "../../components/Nav";
   import Content from "../../components/lb";
   import Place from "../../components/place";

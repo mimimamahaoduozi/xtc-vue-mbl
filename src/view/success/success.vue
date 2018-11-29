@@ -29,7 +29,7 @@
 import mini from "../../components/mininav.vue";
 import Content from "../../components/lb.vue";
 import Nav from "../../components/Nav.vue";
-import Footer from "../../components/footer.vue";
+import Footer from "../../components/Footer.vue";
 import place from "../../components/place.vue";
  import {
         mapActions,

@@ -18,7 +18,7 @@ import mininav from "../../components/mininav"
 import inews from "./i-news"
 import ipro from "./ipro"
 import iabout from "./i-about"
-import Footer from "../../components/footer"
+import Footer from "../../components/Footer"
 
 export default {
   name: "Index",
@@ -35,11 +35,11 @@ export default {
 <style>
   h3{
     text-align:center;
-    font-size:1.2em;
-    line-height: 30px;
-    margin: 10px 5px;
-    padding: 0 20px;
-    background: url("../../assets/img/inav_bg.jpg");
+    font-size:1.2em!important;
+    line-height: 30px!important;
+    margin: 10px 5px!important;
+    padding: 0 20px!important;
+    background: url("http://www.tianciganggou.com/img/inav_bg.jpg");
   }
   h3>span{
     float: left;

@@ -39,7 +39,7 @@
   .nav{
     position: relative;
     height:50px;
-    background:url("../assets/img/newred.jpg");
+    background:url("http://www.tianciganggou.com/product/img/newred.jpg");
     z-index: 1000;
     color: #fff;
   }
@@ -87,7 +87,7 @@
 
 
   a{
-    background:url("../assets/img/newred.jpg");
+    background:url("http://www.tianciganggou.com/product/img/newred.jpg");
     width:100%;
     border-bottom:1px solid #fff;
     color:#fff;

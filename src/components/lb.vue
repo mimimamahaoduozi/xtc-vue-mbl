@@ -7,12 +7,12 @@
    </wc-slide>
 </wc-swiper>
 
-</div> 
+</div>
 </template>
 
 <script>
 export default {
-    name:'Content', 
+    name:'Content',
     data(){
          return{
                slideList: [
@@ -35,12 +35,12 @@ export default {
         }
     ],
     currentIndex: 0,
-    timer: '' 
-                } 
+    timer: ''
+                }
             }}
 </script>
 
-<style>
+<style scoped>
 .carousel-wrap{
     margin:0px;
     padding:0px;

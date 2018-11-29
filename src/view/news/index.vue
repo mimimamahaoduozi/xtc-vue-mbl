@@ -14,7 +14,7 @@ import Nav from "../../components/Nav"
 import Content from "../../components/lb"
 import mininav from "../../components/mininav"
 import news from "./news-content"
-import Footer from "../../components/footer"
+import Footer from "../../components/Footer"
 
 export default {
   name: "News",
@@ -35,4 +35,4 @@ export default {
 
 
 
-     
+

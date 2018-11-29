@@ -72,6 +72,6 @@
   }
   .mininavcon>li.active{
     color: #c12f17;
-    background: url("../assets/img/cebg.jpg");
+    background: url("http://www.tianciganggou.com/product/img/cebg.jpg");
   }
 </style>
